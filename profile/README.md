@@ -1,42 +1,38 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DepLoom/.github/main/assets/deploom-mark.svg" alt="DepLoom woven dependency graph logo" width="152" />
+<img src="https://raw.githubusercontent.com/DepLoom/.github/main/assets/levencode-mark.png" alt="Levencode logo" width="104" />
 
-# DepLoom
+# Levencode
 
-**Evidence-aware dependency upgrades for coding agents.**
+**Thoughtful tools for working with code.**
 
-*Plan the change. Understand the constraints. Verify the result.*
+Built with AI. Refined through testing and review.
 
 </div>
 
-DepLoom helps agents and developers make explainable decisions about JavaScript and TypeScript dependency updates: which versions can move together, what must stay pinned, where peer requirements conflict, and which security or compatibility facts are still unknown.
+<br />
 
-The goal is **a useful, inspectable upgrade blueprint**, not another opaque instruction to run `npm update`.
+<img align="right" src="https://raw.githubusercontent.com/DepLoom/.github/main/assets/deploom-mark.svg" alt="Deploom logo" width="88" />
 
-### The pieces
+## Deploom
 
-| Project | What it does |
-| --- | --- |
-| [**Core**](https://github.com/DepLoom/core) | Headless Python planning engine, bounded target selection, peer-compatibility constraints and explicit evidence/unknowns. |
-| [**MCP**](https://github.com/DepLoom/mcp) | Agent-facing MCP server, compact Upgrade Blueprints, source and policy provenance, and an optional versioned upgrade Skill. |
-| [**Original DepLoom**](https://github.com/AlexanderLevenskikh/deploom) | Historical Desktop and monorepo implementation; retained as a reference while headless components evolve. |
+**Dependency upgrades, with a clear plan.**
 
-### What matters in a blueprint
+Deploom helps developers and coding agents plan dependency updates for JavaScript and TypeScript projects. It brings version choices, compatibility constraints and your allowed changes into one inspectable upgrade plan.
 
-- **User authority stays explicit.** `pinned` and `advisory` targets have different rules; selected dependencies and approved major lines remain constraints.
-- **Health and freshness are not the same goal.** Meeting a policy does not imply that the latest compatible versions were chosen.
-- **UNKNOWN stays UNKNOWN.** Missing exact-target security data is not a zero-vulnerability result, and a known policy violation is not just incomplete evidence.
-- **Plans are not proofs.** Static planning cannot certify npm installability, a resolved dependency tree, runtime behavior or an application's security posture. Those checks must be run against final project inputs.
+- **Choose the scope.** Decide which dependencies and major versions to consider.
+- **Understand the choices.** See why versions were proposed and where requirements conflict.
+- **See what remains.** Keep blockers, missing information and validation steps visible.
 
-### Current research
+**[Get started →](https://github.com/DepLoom/mcp)** &nbsp; · &nbsp;
+[Documentation](https://github.com/DepLoom/mcp/blob/main/docs/INDEX.md) &nbsp; · &nbsp;
+[Latest release](https://github.com/DepLoom/mcp/releases/latest)
 
-DepLoom is an evolving engineering project. Early diagnostic pilots confirmed several planning and evidence contracts, but **have not established that agent + MCP is faster or produces better real migrations than a capable agent on its own**. A small React Router migration comparison found the same functional result with and without the full Skill, while the Skill produced a more structured acceptance record.
+### Two parts, one tool
 
-The next evaluation isolates **agent + MCP (without the Skill) vs. a bare agent** on a harder, controlled dependency-upgrade task, with equal execution checks and independent review. Skill improvements will be evaluated separately.
+| | |
+| :--- | :--- |
+| **[Deploom MCP](https://github.com/DepLoom/mcp)** | Connect the planner to your coding agent and work with structured upgrade plans. |
+| **[Deploom Core](https://github.com/DepLoom/core)** | Explore the dependency planning engine behind Deploom. |
 
-### Explore
-
-Start at [DepLoom MCP](https://github.com/DepLoom/mcp) to see how a coding agent consumes a Blueprint. For the decision engine and its lightweight tests, see [DepLoom Core](https://github.com/DepLoom/core).
-
-> DepLoom plans dependency changes. Successful installation, quality gates, policy closure and real-world runtime correctness still require independent evidence.
+<sub>Each plan still needs installation, project tests and runtime checks to validate the actual upgrade.</sub>
