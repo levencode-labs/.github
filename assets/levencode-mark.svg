@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title"><title id="title">Levencode Labs monogram</title>
+<defs><radialGradient id="bg" cx="50%" cy="42%" r="70%"><stop stop-color="#111b43"/><stop offset="1" stop-color="#060d22"/></radialGradient>
+<linearGradient id="v" x1="0" y1="0" x2="0.5" y2="1"><stop stop-color="#B085FA"/><stop offset=".50" stop-color="#617FFF"/><stop offset="1" stop-color="#25A8F8"/></linearGradient>
+<linearGradient id="h" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#16C7EB"/><stop offset="1" stop-color="#60F4BC"/></linearGradient></defs>
+<circle cx="256" cy="256" r="246" fill="url(#bg)"/>
+<rect x="154" y="112" width="82" height="256" rx="34" fill="url(#v)"/>
+<rect x="171" y="314" width="206" height="75" rx="36" fill="url(#h)"/>
+<path d="M174 351 Q182 324 223 312" fill="none" stroke="#07112c" stroke-width="7" stroke-linecap="round"/>
+</svg>
