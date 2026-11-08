@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">SelfReview — reviewed S monogram</title>
+<desc id="desc">A smooth S-shaped code path in purple, blue and cyan, with a small verified checkmark, on a midnight navy disc.</desc>
+<defs>
+  <radialGradient id="background" cx="36%" cy="23%" r="85%">
+    <stop offset="0" stop-color="#1C2348"/>
+    <stop offset=".52" stop-color="#11182E"/>
+    <stop offset="1" stop-color="#0A1020"/>
+  </radialGradient>
+  <linearGradient id="glyph" x1="142" y1="144" x2="369" y2="408" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#B396FF"/>
+    <stop offset=".36" stop-color="#7787FF"/>
+    <stop offset=".70" stop-color="#34B7F0"/>
+    <stop offset="1" stop-color="#52EACC"/>
+  </linearGradient>
+  <linearGradient id="check" x1="243" y1="240" x2="301" y2="198" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#50C5FB"/>
+    <stop offset="1" stop-color="#61F1CD"/>
+  </linearGradient>
+</defs>
+<circle cx="256" cy="256" r="246" fill="url(#background)"/>
+<circle cx="256" cy="256" r="243" fill="none" stroke="#8C95F8" stroke-opacity=".13" stroke-width="2"/>
+<!-- The single continuous route suggests a source-code traversal and an S. -->
+<path d="M347 162 H227 C180 162 151 187 151 220 C151 255 187 274 234 274 H279 C329 274 357 299 357 336 C357 374 327 394 280 394 H165"
+      fill="none" stroke="url(#glyph)" stroke-width="43" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- A small approval check is deliberately detached from the scan path. -->
+<path d="M248 217 L266 235 L301 201" fill="none" stroke="url(#check)" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
