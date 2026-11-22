@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/levencode-mark.png" width="112" alt="Levencode Labs logo" />
+<img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/levencode-mark.svg" width="112" alt="Levencode Labs logo" />
 
 # Levencode Labs
 
@@ -36,7 +36,7 @@ BlastRadius gives developers and coding agents an evidence-backed map of a refac
 
 ## Deploom
 
-<img align="right" src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/deploom-mark.png" width="104" alt="Deploom logo" />
+<img align="right" src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/deploom-mark.svg" width="104" alt="Deploom logo" />
 
 **Dependency upgrades with a clear plan.**
 
@@ -54,15 +54,15 @@ Deploom helps developers and coding agents plan dependency updates for JavaScrip
   <thead><tr><th align="left" width="200">Repository</th><th align="left">What it does</th></tr></thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/levencode-labs/deploom-core"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/deploom-core-mark.png" width="28" height="28" alt="" />&nbsp;<strong>Deploom&nbsp;Core</strong></a></td>
+      <td><a href="https://github.com/levencode-labs/deploom-core"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/deploom-core-mark.svg" width="28" height="28" alt="" />&nbsp;<strong>Deploom&nbsp;Core</strong></a></td>
       <td>Planning engine for dependency-version decisions, compatibility constraints, and explicit evidence.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/levencode-labs/deploom-mcp"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/deploom-mcp-mark.png" width="28" height="28" alt="" />&nbsp;<strong>Deploom&nbsp;MCP</strong></a></td>
+      <td><a href="https://github.com/levencode-labs/deploom-mcp"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/deploom-mcp-mark.svg" width="28" height="28" alt="" />&nbsp;<strong>Deploom&nbsp;MCP</strong></a></td>
       <td>Agent-facing MCP server, structured upgrade plans, verification boundaries, and the optional <code>deploom-upgrade</code> Skill.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/levencode-labs/deploom-npm"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/deploom-npm-mark.png" width="28" height="28" alt="" />&nbsp;<strong>Deploom&nbsp;npm</strong></a></td>
+      <td><a href="https://github.com/levencode-labs/deploom-npm"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/deploom-npm-mark.svg" width="28" height="28" alt="" />&nbsp;<strong>Deploom&nbsp;npm</strong></a></td>
       <td>Windows installer for the MCP server and Skill, with offline setup and a public cache of npm advisories and migration records.</td>
     </tr>
   </tbody>
@@ -74,7 +74,7 @@ Deploom helps developers and coding agents plan dependency updates for JavaScrip
 
 ## SelfReview
 
-<img align="right" src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/selfreview-mark.png" width="104" alt="SelfReview logo" />
+<img align="right" src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/selfreview-mark.svg" width="104" alt="SelfReview logo" />
 
 **Project conventions you can trace, approve, and check before code review.**
 
