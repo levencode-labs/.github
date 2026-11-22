@@ -14,7 +14,7 @@ Built with AI. Refined through engineering, testing, and review.
 
 We build practical tools for developers and coding agents. The aim is simple: make complex code changes easier to understand, safer to carry out, and clearer to verify.
 
-**Products:** [BlastRadius](#blastradius) · [Deploom](#deploom) · [SelfReview](#selfreview)
+**Products:** [BlastRadius](#blastradius) · [Deploom](#deploom) · [SelfReview](#selfreview) · [Migrator](#migrator)
 
 ## BlastRadius
 
@@ -87,3 +87,34 @@ SelfReview is a local toolkit for JavaScript, TypeScript, and React/TSX. It turn
 **[Get started](https://github.com/levencode-labs/selfreview/blob/main/USERGUIDE.md)** · [Руководство на русском](https://github.com/levencode-labs/selfreview/blob/main/USERGUIDE.ru.md) · [Repository](https://github.com/levencode-labs/selfreview)
 
 <sub>SelfReview complements human code review. Unsupported or ambiguous conventions stay visible for manual review; AST checks do not replace project tests or runtime verification.</sub>
+---
+
+## Migrator
+
+<img align="right" src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/migrator-mark.svg" width="104" alt="Migrator geometric M mark" />
+
+**Move from Selenium C# NUnit to Playwright .NET, with evidence at every step.**
+
+Migrator brings a Roslyn-based .NET 10 migration engine together with an MCP server and an agent Skill. It helps developers and coding agents understand legacy tests, identify unsupported transformations, and prepare conservative Playwright drafts before independent verification.
+
+- **Analyze first.** Inspect source, dependencies, and blockers instead of blindly replacing Selenium APIs.
+- **Preview carefully.** Generate traceable target code and explicitly mark unsupported or ambiguous behavior.
+- **Verify independently.** Keep source analysis, compilation, Chromium runtime checks, and cleanup ownership separate.
+
+### Repositories
+
+<table>
+  <thead><tr><th align="left" width="200">Repository</th><th align="left">What it does</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/AlexanderLevenskikh/selenium-playwright-migrator-core"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/migrator-mark.svg" width="28" height="28" alt="" />&nbsp;<strong>Migrator&nbsp;Core</strong></a></td>
+      <td>Roslyn-based AST analysis, migration planning and conservative Selenium C# NUnit → Playwright .NET code generation.</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/AlexanderLevenskikh/selenium-playwright-migrator-mcp"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/migrator-mark.svg" width="28" height="28" alt="" />&nbsp;<strong>Migrator&nbsp;MCP</strong></a></td>
+      <td>Agent-facing MCP server and Skill for analysis, explanation, preview, and explicit artifact verification.</td>
+    </tr>
+  </tbody>
+</table>
+
+<sub>Active development. The Windows Chromium lifecycle/cleanup investigation is still open ([Core issue #59](https://github.com/AlexanderLevenskikh/selenium-playwright-migrator-core/issues/59)); a migration preview is not a production-verified migration. Repository ownership is being prepared for Levencode Labs.</sub>
