@@ -87,6 +87,7 @@ SelfReview is a local toolkit for JavaScript, TypeScript, and React/TSX. It turn
 **[Get started](https://github.com/levencode-labs/selfreview/blob/main/USERGUIDE.md)** · [Руководство на русском](https://github.com/levencode-labs/selfreview/blob/main/USERGUIDE.ru.md) · [Repository](https://github.com/levencode-labs/selfreview)
 
 <sub>SelfReview complements human code review. Unsupported or ambiguous conventions stay visible for manual review; AST checks do not replace project tests or runtime verification.</sub>
+
 ---
 
 ## Migrator
@@ -107,14 +108,14 @@ Migrator brings a Roslyn-based .NET 10 migration engine together with an MCP ser
   <thead><tr><th align="left" width="200">Repository</th><th align="left">What it does</th></tr></thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/AlexanderLevenskikh/selenium-playwright-migrator-core"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/migrator-mark.svg" width="28" height="28" alt="" />&nbsp;<strong>Migrator&nbsp;Core</strong></a></td>
+      <td><a href="https://github.com/levencode-labs/selenium-playwright-migrator-core"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/migrator-mark.svg" width="28" height="28" alt="" />&nbsp;<strong>Migrator&nbsp;Core</strong></a></td>
       <td>Roslyn-based AST analysis, migration planning and conservative Selenium C# NUnit → Playwright .NET code generation.</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/AlexanderLevenskikh/selenium-playwright-migrator-mcp"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/migrator-mark.svg" width="28" height="28" alt="" />&nbsp;<strong>Migrator&nbsp;MCP</strong></a></td>
+      <td><a href="https://github.com/levencode-labs/selenium-playwright-migrator-mcp"><img src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/migrator-mark.svg" width="28" height="28" alt="" />&nbsp;<strong>Migrator&nbsp;MCP</strong></a></td>
       <td>Agent-facing MCP server and Skill for analysis, explanation, preview, and explicit artifact verification.</td>
     </tr>
   </tbody>
 </table>
 
-<sub>Active development. The Windows Chromium lifecycle/cleanup investigation is still open ([Core issue #59](https://github.com/AlexanderLevenskikh/selenium-playwright-migrator-core/issues/59)); a migration preview is not a production-verified migration. Repository ownership is being prepared for Levencode Labs.</sub>
+<sub>Active development. The Windows Chromium lifecycle/cleanup investigation is still open ([Core issue #59](https://github.com/levencode-labs/selenium-playwright-migrator-core/issues/59)); a migration preview is not a production-verified migration. Both repositories are part of Levencode Labs.</sub>
