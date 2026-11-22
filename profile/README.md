@@ -18,6 +18,8 @@ We build practical tools for developers and coding agents. The aim is simple: ma
 
 ## BlastRadius
 
+<img align="right" src="https://raw.githubusercontent.com/levencode-labs/.github/main/assets/blastradius-mark.png" width="104" alt="BlastRadius B radar mark" />
+
 **See what a change touches. Find what becomes unreachable.**
 
 BlastRadius gives developers and coding agents an evidence-backed map of a refactor's potential impact. Before a change, it traces static symbol consumers, React components, affected routes and related tests. After a change, it finds newly unreachable exports and broken references against a Git baseline.
@@ -26,7 +28,7 @@ BlastRadius gives developers and coding agents an evidence-backed map of a refac
 - **Spot the leftovers.** Separate newly orphaned code from existing dead code and test/Storybook-only usage.
 - **Keep uncertainty visible.** Public APIs, side effects and unresolved dynamic usage never become blanket permission to delete.
 
-**[Repository](https://github.com/levencode-labs/blastradius)** · [Source preview](https://github.com/levencode-labs/blastradius/tree/development/initial-source) · [Architecture](https://github.com/levencode-labs/blastradius/blob/development/initial-source/docs/ARCHITECTURE.md)
+**[Repository](https://github.com/levencode-labs/blastradius)** · [Source preview](https://github.com/levencode-labs/blastradius) · [Architecture](https://github.com/levencode-labs/blastradius/blob/main/docs/ARCHITECTURE.md)
 
 <sub>Development preview (`0.0.1-dev`) — no `v0.1.0` release. CLI, MCP server and Agent Skill are under validation; npm publication and complete acceptance remain pending.</sub>
 
